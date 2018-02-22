@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   STWSocialKit and StanwoodUITesting are not updated to Swift 4.0 just yet and are not included.
                        DESC
 
-  s.homepage         = 'https://github.com/stanwood/Stanwood_Root'
+  s.homepage         = 'https://github.com/stanwood/Stanwood_Root_iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ronan O Ciosoig' => 'ronan.o.ciosoig@stanwood.de' }
-  s.source           = { :git => 'https://github.com/stanwood/Stanwood_Root.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/stanwood/Stanwood_Root_iOS.git', :tag => s.version.to_s }
 
   s.default_subspec = 'Core','Analytics'
 
