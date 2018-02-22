@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Stanwood (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Stanwood (from `../`)
+
+EXTERNAL SOURCES:
+  Stanwood:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Stanwood: 952db0963ae9bfd0f8674c04e1d85d0d30931912
+
+PODFILE CHECKSUM: ba73c123bdc6fc551dd34b956df5271c593e200d
+
+COCOAPODS: 1.4.0

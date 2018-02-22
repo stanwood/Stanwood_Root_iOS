@@ -1,0 +1,67 @@
+{
+  "name": "Stanwood",
+  "version": "0.1.0",
+  "summary": "An umbrella pod for all the internal pods at Stanwood.",
+  "description": "This pod is an umbrella for all the other pods in the company:\nStanwoodCore, StanwoodAnalytics, StanwoodChat, StanwoodDialog, StanwoodGroupChain.\nSTWSocialKit and StanwoodUITesting are not updated to Swift 4.0 just yet and are not included.",
+  "homepage": "https://github.com/stanwood/Stanwood_Root",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ronan O Ciosoig": "ronan.o.ciosoig@stanwood.de"
+  },
+  "source": {
+    "git": "https://github.com/stanwood/Stanwood_Root.git",
+    "tag": "0.1.0"
+  },
+  "default_subspecs": [
+    "Core",
+    "Analytics"
+  ],
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "StanwoodCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "Analytics",
+      "dependencies": {
+        "StanwoodAnalytics": [
+
+        ]
+      }
+    },
+    {
+      "name": "Chat",
+      "dependencies": {
+        "StanwoodChat": [
+
+        ]
+      }
+    },
+    {
+      "name": "Dialog",
+      "dependencies": {
+        "StanwoodDialog": [
+
+        ]
+      }
+    },
+    {
+      "name": "GroupChain",
+      "dependencies": {
+        "StanwoodGroupChain": [
+
+        ]
+      }
+    }
+  ]
+}

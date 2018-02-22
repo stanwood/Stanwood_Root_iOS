@@ -1,0 +1,6 @@
+framework module Stanwood {
+  umbrella header "Stanwood-umbrella.h"
+
+  export *
+  module * { export * }
+}
