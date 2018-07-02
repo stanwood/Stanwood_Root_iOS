@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'An umbrella pod for all the pods developed at Stanwood GmbH.'
 
   s.description      = <<-DESC
-  This pod is an umbrella for all the other pods in the company:
+  This pod is an umbrella for all the open source pods in the company (that are Swift 4.x):
   StanwoodCore, StanwoodAnalytics, StanwoodDialog, StanwoodGroupChain and StanwoodUITesting
                        DESC
 
