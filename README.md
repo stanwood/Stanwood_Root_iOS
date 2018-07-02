@@ -8,8 +8,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 Stanwood is available through [CocoaPods](http://cocoapods.org). To install
@@ -29,7 +27,7 @@ pod 'Stanwood/GroupChain'
 pod 'Stanwood/UITesting'
 ```
 
-The default installation includes 2 subspecs: Core & Analytics. 
+The default installation includes 2 subspecs: Core & Analytics. This simplifies the starting point for a new project. 
 
 ### Core Sub-spec
 
@@ -58,4 +56,4 @@ Stanwood GmbH.
 
 ## License
 
-Stanwood is available under the MIT license. See the LICENSE file for more info.
+Stanwood is available under the MIT license. See the [LICENSE](https://github.com/stanwood/Stanwood_Root_iOS/blob/master/LICENSE) file for more info.
