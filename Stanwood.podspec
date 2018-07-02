@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   This pod is an umbrella for all the other pods in the company:
-  StanwoodCore, StanwoodAnalytics, StanwoodChat, StanwoodDialog, StanwoodGroupChain.
-  STWSocialKit and StanwoodUITesting are not updated to Swift 4.0 just yet and are not included.
+  StanwoodCore, StanwoodAnalytics, StanwoodDialog, StanwoodGroupChain and StanwoodUITesting
                        DESC
 
   s.homepage         = 'https://github.com/stanwood/Stanwood_Root_iOS'
@@ -25,11 +24,6 @@ Pod::Spec.new do |s|
   s.subspec 'Analytics' do |ss|
       ss.dependency 'StanwoodAnalytics'
   end
-
-  # Not public yet.
-  #s.subspec 'Chat' do |ss|
-  #      ss.dependency 'StanwoodChat'
-  #  end
 
   s.subspec 'Dialog' do |ss|
       ss.dependency 'StanwoodDialog'
