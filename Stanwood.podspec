@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Stanwood'
-  s.version          = '0.1.2'
-  s.summary          = 'An umbrella pod for all the internal pods at Stanwood.'
+  s.version          = '1.0.0'
+  s.summary          = 'An umbrella pod for all the pods developed at Stanwood GmbH.'
 
   s.description      = <<-DESC
   This pod is an umbrella for all the other pods in the company:
@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/stanwood/Stanwood_Root_iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ronan O Ciosoig' => 'ronan.o.ciosoig@stanwood.de' }
-  s.source           = { :git => 'git@github.com:stanwood/Stanwood_Root_iOS.git', :tag => s.version.to_s }
+  s.author           = { 'stanwood' => 'ios.frameworks@stanwood.io' }
+  s.source           = { :git => 'https://github.com/stanwood/Stanwood_Root_iOS.git', :tag => s.version.to_s }
 
   s.default_subspec = 'Core','Analytics'
 
