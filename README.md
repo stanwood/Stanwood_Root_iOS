@@ -22,7 +22,7 @@ pod 'Stanwood'
 
 ## Author
 
-ronanoc@icloud.com, ronan.o.ciosoig@stanwood.de
+Stanwood GmbH.
 
 ## License
 
