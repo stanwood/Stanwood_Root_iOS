@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Stanwood
 //
-//  Created by ronanoc@icloud.com on 02/17/2018.
-//  Copyright (c) 2018 ronanoc@icloud.com. All rights reserved.
+//  Created by Ronan on 02/17/2018.
+//  Copyright © 2018 Stanwood GmbH. All rights reserved.
 //
 
 import UIKit
