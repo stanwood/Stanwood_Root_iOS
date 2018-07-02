@@ -26,9 +26,10 @@ Pod::Spec.new do |s|
       ss.dependency 'StanwoodAnalytics'
   end
 
-  s.subspec 'Chat' do |ss|
-      ss.dependency 'StanwoodChat'
-  end
+  # Not public yet.
+  #s.subspec 'Chat' do |ss|
+  #      ss.dependency 'StanwoodChat'
+  #  end
 
   s.subspec 'Dialog' do |ss|
       ss.dependency 'StanwoodDialog'
@@ -38,15 +39,9 @@ Pod::Spec.new do |s|
       ss.dependency 'StanwoodGroupChain'
   end
 
-  # Need to be updated to Swift 4.x
-  #s.subspec 'Social' do |ss|
-  #    ss.dependency 'STWSocialKit'
-  #end
-
-  # Need to be updated to Swift 4.x
-  #s.subspec 'UITesting' do |ss|
-  #    ss.dependency 'StanwoodUITesting'
-  #    ss.frameworks = 'XCTest'
-  #end
+  s.subspec 'UITesting' do |ss|
+      ss.dependency 'StanwoodUITesting'
+      ss.frameworks = 'XCTest'
+  end
 
 end
