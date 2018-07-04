@@ -4,9 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'An umbrella pod for all the pods developed at Stanwood GmbH.'
 
   s.description      = <<-DESC
-  This pod is an umbrella for all the other pods in the company:
-  StanwoodCore, StanwoodAnalytics, StanwoodChat, StanwoodDialog, StanwoodGroupChain.
-  STWSocialKit and StanwoodUITesting are not updated to Swift 4.0 just yet and are not included.
+  This pod is an umbrella for all the open source pods in the company (that are Swift 4.x):
+  StanwoodCore, StanwoodAnalytics, StanwoodDialog, StanwoodGroupChain and StanwoodUITesting
                        DESC
 
   s.homepage         = 'https://github.com/stanwood/Stanwood_Root_iOS'
@@ -17,6 +16,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core','Analytics'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.1'
 
   s.subspec 'Core' do |ss|
       ss.dependency 'StanwoodCore'
@@ -24,10 +24,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Analytics' do |ss|
       ss.dependency 'StanwoodAnalytics'
-  end
-
-  s.subspec 'Chat' do |ss|
-      ss.dependency 'StanwoodChat'
   end
 
   s.subspec 'Dialog' do |ss|
@@ -38,15 +34,9 @@ Pod::Spec.new do |s|
       ss.dependency 'StanwoodGroupChain'
   end
 
-  # Need to be updated to Swift 4.x
-  #s.subspec 'Social' do |ss|
-  #    ss.dependency 'STWSocialKit'
-  #end
-
-  # Need to be updated to Swift 4.x
-  #s.subspec 'UITesting' do |ss|
-  #    ss.dependency 'StanwoodUITesting'
-  #    ss.frameworks = 'XCTest'
-  #end
+  s.subspec 'UITesting' do |ss|
+      ss.dependency 'StanwoodUITesting'
+      ss.frameworks = 'XCTest'
+  end
 
 end
