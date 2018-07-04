@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core','Analytics'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.1'
 
   s.subspec 'Core' do |ss|
       ss.dependency 'StanwoodCore'
