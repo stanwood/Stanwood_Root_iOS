@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Stanwood.svg?style=flat)](http://cocoapods.org/pods/Stanwood)
 [![License](https://img.shields.io/cocoapods/l/Stanwood.svg?style=flat)](http://cocoapods.org/pods/Stanwood)
 [![Platform](https://img.shields.io/cocoapods/p/Stanwood.svg?style=flat)](http://cocoapods.org/pods/Stanwood)
-
+[![Build Status](https://travis-ci.org/stanwood/Stanwood_Root_iOS.svg?branch=master)](https://travis-ci.org/stanwood/Stanwood_Root_iOS)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
