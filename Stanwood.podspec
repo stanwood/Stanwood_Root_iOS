@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Stanwood'
-  s.version          = '1.0.0'
+  s.version          = '1.5.1'
   s.summary          = 'An umbrella pod for all the pods developed at Stanwood GmbH.'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core','Analytics'
 
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.1'
+  s.swift_version = '5'
 
   s.subspec 'Core' do |ss|
       ss.dependency 'StanwoodCore'

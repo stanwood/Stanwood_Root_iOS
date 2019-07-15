@@ -1,0 +1,6 @@
+framework module StanwoodAnalytics {
+  umbrella header "StanwoodAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
